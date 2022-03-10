@@ -108,10 +108,10 @@ function index()
         page.title  = _("Bandwidth")
         page.order  = 35
 
-	page        = node("admin", "freifunk", "bbbdigger")
-	page.target = cbi("freifunk/bbbdigger", {hideapplybtn=true})
-	page.title  = _("BBB-VPN (bbbdigger)")
-	page.order  = 40
+--	page        = node("admin", "freifunk", "bbbdigger")
+--	page.target = cbi("freifunk/bbbdigger", {hideapplybtn=true})
+--	page.title  = _("BBB-VPN (bbbdigger)")
+--	page.order  = 40
 
 	page        = node("admin", "freifunk", "swapports")
 	page.target = cbi("freifunk/swapports", {hideapplybtn=true})
