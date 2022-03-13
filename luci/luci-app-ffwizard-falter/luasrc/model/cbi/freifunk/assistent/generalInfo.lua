@@ -15,7 +15,7 @@ generalinfo.template = "freifunk/assistent/snippets/generalInfo"
 
 community = f:field(ListValue, "net", translate("Freifunk-Community"), "")
 function community.cfgvalue(self, section)
-  return uci:get("freifunk", "community", "name") or "berlin"
+  return uci:get("freifunk", "community", "name") or "ukraine"
 end
 local profiles = "/etc/config/profile_"
 for v in fs.glob(profiles.."*") do
